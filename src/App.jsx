@@ -1,7 +1,9 @@
 // import Gallery from "./components/Gallery";
 // import Todos from "./components/Todos";
 // import Parent from "./lifecycle/components/Parent";
-import Event from "./event/components/Event";
+// import Event from "./event/components/Event";
+import ChallengeB from "./event/components/challenge/ChallengeB";
+// import ChallengeA from "./event/components/challenge/ChanllengeA";
 
 export default function App() {
   return (
@@ -9,7 +11,9 @@ export default function App() {
       {/* <Gallery /> */}
       {/* <Todos /> */}
       {/* <Parent /> */}
-      <Event />
+      {/* <Event /> */}
+      {/* <ChallengeA /> */}
+      <ChallengeB />
     </div>
   );
 }
